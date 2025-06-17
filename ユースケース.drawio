@@ -1,0 +1,142 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.9 Chrome/134.0.6998.205 Electron/35.4.0 Safari/537.36" version="27.0.9">
+  <diagram name="ページ1" id="kPtdP-zvcJGB9JQ1EduI">
+    <mxGraphModel dx="597" dy="734" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3-5cMDvW9P0xMrH3QYJs-1" value="" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="90" width="580" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="3-5cMDvW9P0xMrH3QYJs-2" value="管理者" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="120" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3-5cMDvW9P0xMrH3QYJs-5" value="さぬきオリーブ管理マン" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3-5cMDvW9P0xMrH3QYJs-6" value="管理者IDでログイン" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="140" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3-5cMDvW9P0xMrH3QYJs-8" value="商品リストを表示する" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="135" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3-5cMDvW9P0xMrH3QYJs-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.058;entryY=0.62;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3-5cMDvW9P0xMrH3QYJs-2" target="3-5cMDvW9P0xMrH3QYJs-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="310" as="sourcePoint" />
+            <mxPoint x="180" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3-5cMDvW9P0xMrH3QYJs-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3-5cMDvW9P0xMrH3QYJs-6" target="3-5cMDvW9P0xMrH3QYJs-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="300" as="sourcePoint" />
+            <mxPoint x="360" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3-5cMDvW9P0xMrH3QYJs-11" value="商品別の在庫を確認する" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="170" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3-5cMDvW9P0xMrH3QYJs-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.953;exitY=0.7;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3-5cMDvW9P0xMrH3QYJs-8" target="3-5cMDvW9P0xMrH3QYJs-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="310" as="sourcePoint" />
+            <mxPoint x="480" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3-5cMDvW9P0xMrH3QYJs-13" value="ECサイトのCSVを読み込む" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="570" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="3-5cMDvW9P0xMrH3QYJs-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3-5cMDvW9P0xMrH3QYJs-6" target="3-5cMDvW9P0xMrH3QYJs-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="400" as="sourcePoint" />
+            <mxPoint x="280" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3-5cMDvW9P0xMrH3QYJs-15" value="" style="whiteSpace=wrap;html=1;aspect=fixed;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="760" width="260" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="3-5cMDvW9P0xMrH3QYJs-16" value="ECサイト" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="760" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3-5cMDvW9P0xMrH3QYJs-17" value="注文の内容を更新" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="810" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3-5cMDvW9P0xMrH3QYJs-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.453;entryY=0.957;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3-5cMDvW9P0xMrH3QYJs-17" target="3-5cMDvW9P0xMrH3QYJs-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="770" as="sourcePoint" />
+            <mxPoint x="260" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3-5cMDvW9P0xMrH3QYJs-19" value="注文リストを表示する" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="440" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3-5cMDvW9P0xMrH3QYJs-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="3-5cMDvW9P0xMrH3QYJs-35" target="3-5cMDvW9P0xMrH3QYJs-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="610" as="sourcePoint" />
+            <mxPoint x="420" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3-5cMDvW9P0xMrH3QYJs-21" value="注文内容を確認する" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="340" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3-5cMDvW9P0xMrH3QYJs-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.069;entryY=0.717;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3-5cMDvW9P0xMrH3QYJs-19" target="3-5cMDvW9P0xMrH3QYJs-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="560" as="sourcePoint" />
+            <mxPoint x="440.71067811865476" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3-5cMDvW9P0xMrH3QYJs-23" value="顧客" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="930" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3-5cMDvW9P0xMrH3QYJs-26" value="注文内容を保存する" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="930" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3-5cMDvW9P0xMrH3QYJs-27" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="3-5cMDvW9P0xMrH3QYJs-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="980" as="sourcePoint" />
+            <mxPoint x="130" y="930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3-5cMDvW9P0xMrH3QYJs-28" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.321;exitY=0.017;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.413;entryY=0.92;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3-5cMDvW9P0xMrH3QYJs-26" target="3-5cMDvW9P0xMrH3QYJs-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="930" as="sourcePoint" />
+            <mxPoint x="290" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3-5cMDvW9P0xMrH3QYJs-29" value="受注ステータスを更新する" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="270" width="156" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3-5cMDvW9P0xMrH3QYJs-31" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.556;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.064;entryY=0.667;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3-5cMDvW9P0xMrH3QYJs-21" target="3-5cMDvW9P0xMrH3QYJs-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="310" as="sourcePoint" />
+            <mxPoint x="400" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3-5cMDvW9P0xMrH3QYJs-32" value="在庫数を更新する" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="370" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="3-5cMDvW9P0xMrH3QYJs-33" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.904;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.444;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3-5cMDvW9P0xMrH3QYJs-29" target="3-5cMDvW9P0xMrH3QYJs-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="340" as="sourcePoint" />
+            <mxPoint x="650" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3-5cMDvW9P0xMrH3QYJs-34" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.233;entryY=0.913;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3-5cMDvW9P0xMrH3QYJs-13" target="3-5cMDvW9P0xMrH3QYJs-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="610" as="sourcePoint" />
+            <mxPoint x="400" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3-5cMDvW9P0xMrH3QYJs-35" value="注文情報・顧客情報を保存する" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="530" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3-5cMDvW9P0xMrH3QYJs-36" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.375;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3-5cMDvW9P0xMrH3QYJs-19" target="3-5cMDvW9P0xMrH3QYJs-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="510" as="sourcePoint" />
+            <mxPoint x="500" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3-5cMDvW9P0xMrH3QYJs-37" value="売り上げを表示する" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="490" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
